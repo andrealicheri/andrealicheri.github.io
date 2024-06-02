@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrea Licheri's resume</title>
+</head>
+
+<body>
+    <p class="name">ANDREA LICHERI</p>
+    <hr>
+    </hr>
+    <p class="subtitle">
+        <a class="mail" href="mailto:andrealicheripakunza@gmail.com">andrealicheripakunza@gmail.com</a>
+        - Italy, Nuoro, CA 08100
+        - <a class="mail" href="https://github.com/andrealicheri">github.com/andrealicheri</a>
+    </p>
+    <div class="resume">
+        <p class="title">Resume Objective</p>
+        <p>Aspiring Full Stack Web Developer with robust practical skills and hands-on experience demonstrated through a
+            portfolio of comprehensive projects. Eager to leverage clear communication abilities, strong
+            problem-solving skills, and a keen eye for detail to contribute to dynamic development teams. Committed to
+            continuous learning and passionate about creating efficient, scalable web solutions. Seeking an entry-level
+            position where I can grow and apply my expertise in both front-end and back-end technologies.</p>
+        <p class="title">Programming skills</p>
+        <div>
+            <p>I possess extensive knowledge in the following languages and frameworks:</p>
+            <ul>
+                <li><a href="https://python.org">Python</a>, <a href="https://flask.palletsprojects.com/en/3.0.x/">Flask</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>, <a href="https://www.typescriptlang.org/">TypeScript</a>, <a href="https://nodejs.org/">NodeJS</a>, <a href="https://bun.sh/">Bun</a></li>
+                <li><a href="https://svelte.dev">Svelte</a>, <a href="https://kit.svelte.dev">SvelteKit</a>, <a href="https://astro.build">Astro</a>, <a href="https://vitejs.dev">ViteJS</a></li>
+                <li><a href="https://nim-lang.org/">Nim</a></li>
+            </ul>
+        </div>
+        <p class="title">Professional skills</p>
+        <div>
+            <p><b>Working Skills</b></p>
+            <ul>
+                <li>Ability to plan, execute, and oversee projects efficiently, ensuring that all tasks are completed on
+                    time and within budget.</li>
+                <li>Proficient in prioritizing tasks and managing time effectively to meet deadlines and deliver
+                    high-quality work.</li>
+                <li>Meticulous in reviewing code, identifying errors, and ensuring the highest level of accuracy and
+                    quality in all projects.</li>
+                <li>Capable of adjusting to new challenges and learning new technologies quickly in a fast-paced work
+                    environment.</li>
+            </ul>
+
+            <p><b>Comunication Skills</b></p>
+            <ul>
+                <li>Skilled in conveying technical concepts clearly and concisely to both technical and non-technical
+                    stakeholders.</li>
+                <li>Experienced in working within cross-functional teams, fostering a collaborative environment to
+                    achieve common goals.</li>
+                <li>Dedicated to understanding and meeting the needs of clients and users, ensuring a positive
+                    experience with the software developed.</li>
+                <li>Capable of guiding and mentoring junior developers, providing support and direction to help them
+                    grow professionally.</li>
+                <li>Fluent in English (C1), Italian (Native) and Spanish (B2).</li>
+            </ul>
+
+            <p><b>Critical Thinking Skills</b></p>
+            <ul>
+                <li>Adept at identifying issues, analyzing potential solutions, and implementing effective fixes to
+                    complex technical problems.</li>
+                <li>Strong analytical skills to evaluate situations, make informed decisions, and develop innovative
+                    solutions to technical challenges.</li>
+                <li>Ability to think ahead and plan strategically to anticipate potential obstacles and ensure long-term
+                    project success.</li>
+            </ul>
+        </div>
+        <p class="title">Project History</p>
+        <div>
+            <h2><a href="https://github.com/andrealicheri/rythmicmambo">RYTHMICMAMBO</a></h2>
+            <p>Web-based browser information logger - 16th of July, 2023</p>
+            <h2><a href="https://github.com/andrealicheri/my-chat-app">my chat app</a></h2>
+            <p>Flask, Vercel and AstraDB based PoC chat app - 22th of December, 2023</p>
+            <h2><a href="https://github.com/andrealicheri/astra_document">astra_document</a></h2>
+            <p>High level functions to interact with the Datastax Astra API's HTTP verbs - 28th of December, 2023</p>
+            <h2><a href="https://github.com/andrealicheri/mom-s-notes">Mom's notes</a></h2>
+            <p>iPad note taking application with gestures, built with Svelte - 2nd of January, 2024</p>
+            <h2><a href="https://github.com/andrealicheri/nosnoop">NoSnoop</a></h2>
+            <p>P2P, TOR routed, E2E encrypted private open-source chat app - 3rd of January, 2024</p>
+            <h2><a href="https://thekarateway.vercel.app">TheKarateWay</a></h2>
+            <p>Minimal website designed to organize and codify Karate techniques - 16th of April, 2024</p>
+            <h2><a href="https://github.com/andrealicheri/openfightpass">OpenFightPass</a></h2>
+            <p>Simple webiste designed to help users navigate free fighting content on Youtube  - 19th of May, 2024</p>
+        </div>
+    </div>
+</body>
+
+<style>
+    html,
+    body {
+        padding: 2rem;
+    }
+
+    hr {
+        border: 3px solid rgb(0, 0, 0);
+        border-radius: 5px;
+    }
+
+    a {
+        color: black;
+    }
+    .name {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .subtitle {
+        color: gray
+    }
+
+    .mail {
+        color: rgb(113, 113, 113)
+    }
+
+    .resume {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 10px;
+        font-size: 1.2rem;
+        text-align: justify;
+
+    }
+
+    .resume>.title {
+        font-size: 1.4rem;
+        font-weight: 800;
+    }
+
+    @media (max-width: 600px) {
+        .resume {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+</html>
